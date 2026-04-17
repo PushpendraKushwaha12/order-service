@@ -83,9 +83,9 @@ public class UserController {
         return ResponseEntity.ok(new ApiResponse<>(HttpStatus.OK.value(), "User deleted successfully", null, System.currentTimeMillis()));
     }
 
-    @GetMapping("/auth/health")
-    public ResponseEntity<ApiResponse<String>> health() {
-        return ResponseEntity.ok(new ApiResponse<>(HttpStatus.OK.value(), "User service is healthy", "OK", System.currentTimeMillis()));
-    }
+//    @GetMapping("/auth/health")
+//    public ResponseEntity<ApiResponse<String>> health() {
+//        return ResponseEntity.ok(new ApiResponse<>(HttpStatus.OK.value(), "User service is healthy", "OK", System.currentTimeMillis()));
+//    }
 }
 
